@@ -1,0 +1,34 @@
+/* Write your code here: */
+
+/* Group selector 1 */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* child selector 2 */
+    /* div > p {
+        color: firebrick;
+    } */
+    /* or ... */
+.box > p{
+    color: firebrick;
+}
+
+/* Descendant Seclector 3 */
+    /* not using list tag, image there are other lists */
+.box li{
+    color: blue;
+}
+
+/* Chaining Selector 4 */
+li.done {
+    color: seagreen;
+}
+
+/* Combining Combiners 5 */
+    /* ul p.done {
+        font-size: 0.5rem;
+    } */
+ul > p.done {
+    font-size: 0.5rem;
+}
